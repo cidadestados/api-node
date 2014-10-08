@@ -1,0 +1,33 @@
+{
+  "name": "api-node",
+  "version": "0.0.1",
+  "description": "A sua API pública para as cidades e os estados brasileiros.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cidadestados/api-node.git"
+  },
+  "keywords": [
+    "api",
+    "cidadestados",
+    "nodejs",
+    "cidadestados",
+    "node",
+    "cidadestados",
+    "cidades",
+    "brasileiras",
+    "cidades",
+    "estados",
+    "brasileiros",
+    "estados"
+  ],
+  "author": "Guilherme Oderdenge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cidadestados/api-node/issues"
+  },
+  "homepage": "https://github.com/cidadestados/api-node",
+  "devDependencies": {
+    "express": "^4.9.5"
+  }
+}
