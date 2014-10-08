@@ -9,7 +9,7 @@ app.get('/estados/', function (request, response) {
   var content = readJSONFileSync(__dirname + '/data/cities-states.json');
 
   response.setHeader('Content-Type', 'application/json');
-  response.end(JSON.stringify(content, null, 3));
+  response.end(JSON.stringify(content, null, 2));
 });
 
 var server = app.listen(app.get('port'), function () {
